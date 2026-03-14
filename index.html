@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Todo List App</title>
+
+<style>
+
+body{
+    font-family: Arial;
+    background-color: aqua;
+    text-align: center;
+}
+
+.heading{
+    margin-top: 30px;
+}
+
+input{
+    padding:8px;
+}
+
+button{
+    padding:8px;
+    margin-left:5px;
+}
+
+ul{
+    list-style:none;
+    padding:0;
+}
+
+li{
+    margin:8px;
+}
+
+.section{
+    margin-top:30px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<h1 class="heading">Todo List App</h1>
+
+<input type="text" id="todo-input" placeholder="Enter task">
+
+<button id="add-btn">Add</button>
+
+<div class="section">
+<h2>Pending Tasks</h2>
+<ul id="pending-list"></ul>
+</div>
+
+<div class="section">
+<h2>Completed Tasks</h2>
+<ul id="completed-list"></ul>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
